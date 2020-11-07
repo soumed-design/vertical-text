@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.grid{
+    display: grid;
+    width: 700px;
+    height: 400px;
+    grid-template-columns: 30% 70%;
+}
+.text{
+    background-color: #fed500;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: center;
+    align-content: center;
+}
+h2{
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    margin: 0;
+    writing-mode: vertical-rl;
+    text-align: center;
+    line-height: 1;
+    transform: rotate(180deg);
+}
+.img{
+    background-image: url(img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
